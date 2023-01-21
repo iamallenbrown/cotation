@@ -1,0 +1,6 @@
+.fromneuve{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2000px;
+}

@@ -1,0 +1,164 @@
+.form_body{
+  min-height: 100vh;
+}
+.about{
+    color: #00a651;
+    width: 100%;
+    background-color: white;
+}
+
+#entete{
+    font-size: 20px;
+    margin-left: auto; 
+}
+
+#smmc{
+    color: black;
+    text-align: justify;
+    width: 50%;
+}
+
+
+.formulaire{
+    align-items: left;
+    margin-top: 50px;
+    display: flex;
+    width: 50%;
+    min-height: 65vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: url(../image/bc1.png)  center/cover no-repeat ;
+    box-shadow: 0 5px 10px #000;
+    border-radius: 5px;
+  
+  }
+
+  .form1 , .form2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+  }
+
+
+  select:invalid{
+    color: gray;
+  }
+
+
+  input,select,option{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    align-content: center;
+    background-color: #fff;
+    border: #777 1px solid;
+    margin: 0 0 1.5em 0;
+    box-shadow: 0 5px 10px #000;
+    text-align: center;
+  }
+
+
+
+
+  .total{
+    margin-left: 1000px;
+  }
+
+/*tableau*/
+.conteneurTableau{
+	display: flex;
+	grid-row: reverse;
+}
+
+
+.tableau{
+	 width:100%;
+	 border-spacing: 0px;
+	 border: 1px groove;
+   /* table-layout: auto;*/
+    border-collapse: collapse;
+    
+    
+}
+
+ .tableau td:nth-child(2),.tableau td:nth-child(3),.tableau td:nth-child(4),.tableau td:nth-child(5),.tableau td:nth-child(6) {
+    text-align:center;
+ }
+ .tableau td:nth-child(7){
+ 	text-align: right;
+ }
+
+
+ .tableau td:nth-child(2),.tableau td:nth-child(5),.tableau td:nth-child(6){
+ 	width: 6%;
+ }
+
+ .tableau td:nth-child(3),.tableau td:nth-child(4){
+ 	width: 9%;
+ }
+ .tableau td:nth-child(1){
+ 	width: 35%;
+ }
+ .tableau td:nth-child(7){
+ 	width: 19% ;
+ }
+
+
+.tableau td,th{
+	border: 1px solid black; 
+	table-layout: auto;	
+}
+
+td .left{
+	text-align: left;
+}
+
+
+.tableauTotal td:nth-child(2){
+	border: 1px solid black;
+	text-align: right;
+	
+}
+
+.tableauTotal td:nth-child(1){
+	border: none;
+	width: 28%;
+	text-align: right;
+}
+
+.tableauTotalTout td:nth-child(1){
+	border: none;
+	width: 45%;
+	text-align: right;
+}
+
+.tableauTotalTout td:nth-child(2){
+	border: 1px solid black;
+	text-align: right;
+}
+
+#tab1 {
+  margin-top: 10px;
+}
+
+#tab2, #tab4 {
+	margin-top: 10px;
+}
+#tab3{
+	margin-top: 40px;
+}
+
+#tab5 {
+	margin-top: 15px;
+}
+
+
+.ToutLesTab {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+  margin-left: 30px;
+  margin-right: 30px;
+}

@@ -1,0 +1,18 @@
+.picturebox {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+}
+
+.picturebox img{
+    height: 550px;
+}
+
+.card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}

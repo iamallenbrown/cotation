@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../Back/my-app"
+	},
+	{
+		"path": "../Stage"
+	},
+	{
+		"path": "../test"
+	}
+],
+  "settings": {}
+}
